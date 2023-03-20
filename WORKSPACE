@@ -1,4 +1,4 @@
-workspace(name = "com_github_sidningoo_alpaca_trade_api_cpp")
+workspace(name = "com_github_marpaia_alpaca_trade_api_cpp")
 
 ################################################################################
 # C++ Dependencies
