@@ -1,4 +1,4 @@
-package(visibility = ["//:__pkg__"])
+package(default_visibility = ["//visibility:public"])
 
 cc_library(
     name = "uwebsockets",
@@ -37,4 +37,5 @@ cc_library(
         "@com_github_madler_zlib//:zlib",
     ],
     defines = [],
+    visibility = [//:__pkg__],
 )
