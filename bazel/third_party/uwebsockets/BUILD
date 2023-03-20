@@ -1,4 +1,4 @@
-package(default_visibility = ["//:__pkg__"])
+package(visibility = ["//:__pkg__"])
 
 cc_library(
     name = "uwebsockets",
